@@ -1,6 +1,8 @@
 import logging
 import azure.functions as func
 
+logging.basicConfig(level=logging.DEBUG)
+
 app = func.FunctionApp()
 
 @app.function_name(name="EventHubTrigger1")
