@@ -1,7 +1,7 @@
 import logging
 import azure.functions as func
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.ERROR)
 
 app = func.FunctionApp()
 
